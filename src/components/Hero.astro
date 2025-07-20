@@ -38,7 +38,7 @@ const { name, specialty, summary, email } = Astro.props;
       index = (index + 1) % words.length;
     }
 
-    setInterval(rotateWords, 2000); // every 2 seconds
+    setInterval(rotateWords, 1500); // every 2 seconds
     window.addEventListener("DOMContentLoaded", rotateWords);
   </script>
 </section>

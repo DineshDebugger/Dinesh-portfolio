@@ -6,7 +6,8 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
   lang: "en",
-  siteLogo: "/pic2.jpg",
+  // siteLogo: "/pic2.jpg",
+  siteLogo: "/db-logo-removebg-preview.png",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
@@ -84,21 +85,21 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-  👋 Hi, I’m <strong>Dinesh Babu</strong> — a passionate <strong>Full-Stack Developer</strong> from India.<br><br>
+    👋 Hi, I’m <strong>Dinesh Babu</strong> — a passionate <strong>Full-Stack Developer</strong> from India.<br><br>
 
-  I specialize in building modern, responsive, and scalable web applications. Whether it's a sleek front-end interface or a complex backend service, I enjoy creating impactful digital solutions that solve real-world problems.<br><br>
+    I specialize in building modern, responsive, and scalable web applications. Whether it's a sleek front-end interface or a complex backend service, I enjoy creating impactful digital solutions that solve real-world problems.<br><br>
 
-  💻 <strong>Tech Stack</strong><br>
-  <strong>Frontend:</strong> React · Angular · Next.js · Nuxt.js<br>
-  <strong>Styling:</strong> HTML5 · CSS3 · Tailwind CSS · Bootstrap<br>
-  <strong>Backend:</strong> Node.js · Express · ASP.NET<br>
-  <strong>Tools:</strong> Git · GitHub · Jenkins · Figma · VS Code<br>
-  <strong>Integrations:</strong> AWS S3 · Redis · SharePoint · Form.io<br><br>
+    💻 <strong>Tech Stack</strong><br>
+    <strong>Frontend:</strong> React · Angular · Next.js<br>
+    <strong>Styling:</strong> HTML5 · CSS3 · Tailwind CSS · Bootstrap<br>
+    <strong>Backend:</strong> Node.js · Express · ASP.NET<br>
+    <strong>Tools:</strong> Git · GitHub · Jenkins · Figma · VS Code<br>
+    <strong>Integrations:</strong> AWS S3 · Redis · SharePoint · Form.io<br><br>
 
-  🤝 <strong>Let’s Collaborate!</strong><br>
-  I’m always excited to connect with like-minded developers, work on exciting projects, or explore new tech ideas together.
-  `,
-    image: "/pic.jpg",
+    🤝 <strong>Let’s Collaborate!</strong><br>
+    I’m always excited to connect with like-minded developers, work on exciting projects, or explore new tech ideas together.
+    `,
+    image: "/pic2.jpg",
   },
 };
 
