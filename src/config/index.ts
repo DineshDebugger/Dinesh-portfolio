@@ -30,7 +30,8 @@ export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Dinesh Babu",
     specialty: "Full-stack Developer",
-    summary: "I create and design responsive websites and web applications",
+    // summary: "I create and design responsive websites and web applications",
+    summary: "responsive websites and web applications",
     email: "dineshrvd1403@email.com",
   },
   experience: [

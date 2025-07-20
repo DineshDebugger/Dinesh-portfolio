@@ -16,7 +16,9 @@ const { name, specialty, summary, email } = Astro.props;
   >
     {specialty}
   </p>
+
   <p class="mb-16 text-base font-normal text-neutral md:text-lg">
+    I <span id="animated-text" class="font-medium text-primary">create</span>
     {summary}
   </p>
 
@@ -24,4 +26,19 @@ const { name, specialty, summary, email } = Astro.props;
     class="inline-block rounded-full bg-primary px-8 py-5 text-sm leading-5 font-medium text-[#fff]"
     href={`mailto:${email}`}>Get in Touch</a
   >
+
+  <script>
+    const words = ["create", "design", "build", "develop"];
+    let index = 0;
+
+    function rotateWords() {
+      const el = document.getElementById("animated-text");
+      if (!el) return;
+      el.textContent = words[index];
+      index = (index + 1) % words.length;
+    }
+
+    setInterval(rotateWords, 2000); // every 2 seconds
+    window.addEventListener("DOMContentLoaded", rotateWords);
+  </script>
 </section>
