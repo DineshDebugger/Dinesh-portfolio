@@ -8,9 +8,36 @@ type Props = AboutProps & Pick<HeroProps, "name">;
 const { description, image, name } = Astro.props;
 ---
 
-<Section text="About Me" href="about">
+<section id="about">
+  <div class="mb-8 flex items-center justify-between">
+    <h2 class="text-4xl font-bold text-white">About Me</h2>
+    <a
+      href="/resume.pdf"
+      download="Dinesh_Babu_Resume.pdf"
+      class="group relative inline-flex items-center font-medium text-white"
+    >
+      <span class="relative z-10">Download Resume</span>
+      <span
+        class="absolute bottom-0 left-0 h-[2px] w-0 bg-white transition-all duration-300 group-hover:w-full"
+      ></span>
+      <svg
+        class="ml-2 h-5 w-5 translate-x-2 transform opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4"
+        ></path>
+      </svg>
+    </a>
+  </div>
+
   <div class="flex flex-col items-center gap-12 md:flex-row md:gap-8">
-    <!-- Description rendered as HTML -->
     <div class="w-full md:w-2/3">
       <div
         class="text-base leading-relaxed text-neutral"
@@ -18,9 +45,8 @@ const { description, image, name } = Astro.props;
       />
     </div>
 
-    <!-- Image section -->
     <div
-      class="h-80 w-64 flex-shrink-0 rotate-[5deg] rounded-xl bg-white p-4 shadow-lg md:rotate-[7deg]"
+      class="h-74 w-64 flex-shrink-0 rotate-[5deg] rounded-xl bg-white p-4 shadow-lg md:rotate-[7deg]"
     >
       <Image
         class="rounded-md object-cover"
@@ -31,4 +57,4 @@ const { description, image, name } = Astro.props;
       />
     </div>
   </div>
-</Section>
+</section>
