@@ -38,9 +38,23 @@ export const SITE_CONTENT: SiteContent = {
   experience: [
     {
       company: "ADAMSBRIDGE GLOBAL",
+      position: "Senior Software Engineer",
+      startDate: "June 2025",
+      endDate: "present",
+      summary: [
+        "Led the design and delivery of robust, scalable apps using React.js, Next.js, Node.js, and Angular.js.",
+        "Integrated SharePoint and AWS S3 for secure document and media handling",
+        "Developed reusable UI components and dynamic Form.io-powered forms.",
+        "Implemented Redis-based caching and session control, improving load speeds by 30%.",
+        "Deployed automated CI/CD pipelines with GitHub Actions and Azure DevOps.",
+        "Guided junior developers, conducted peer code reviews, and ensured Agile alignment.",
+      ],
+    },
+    {
+      company: "ADAMSBRIDGE GLOBAL",
       position: "Software Engineer",
       startDate: "March 2024",
-      endDate: "present",
+      endDate: "June 2025",
       summary: [
         "Integrated SharePoint and AWS S3 file storage solutions into a centralized Node.js service, enabling seamless and secure file upload functionality across all modules.",
         "Designed and implemented a reusable, high-performance data table component from scratch, featuring advanced pagination, sorting, and filtering capabilities, optimized for large datasets.",
