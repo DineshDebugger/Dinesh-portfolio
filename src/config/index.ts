@@ -107,6 +107,7 @@ export const SITE_CONTENT: SiteContent = {
     <strong>Frontend:</strong> React · Angular · Next.js<br>
     <strong>Styling:</strong> HTML5 · CSS3 · Tailwind CSS · Bootstrap<br>
     <strong>Backend:</strong> Node.js · Express · ASP.NET<br>
+    <strong>Database:</strong> Mongodb · SQL<br>
     <strong>Tools:</strong> Git · GitHub · Jenkins · Figma · VS Code<br>
     <strong>Integrations:</strong> AWS S3 · Redis · SharePoint · Form.io<br><br>
 
